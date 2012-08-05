@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Who We Are"
+date: 2012-08-03 08:23
+comments: true
+author: Chris
+categories: 
+---
+
+### A Tale Of Two Nerds
+
+Like most development stories, it started off with <a href="http://kenpratt.net">2</a> <a href="http://shorrockin.com">nerds</a>
+wanting to build something cool. Having met, and then departed, from Electronic Arts after 4 years of service we decided to get the band
+back together and create what is now known as <a href="http://www.atomicbrawl.com">Atomic Brawl</a>.
+
+
+### The Rundown
+
+Development started in May of 2011 and what we've created is a asynchrounous multiplayer strategy game that is currently in beta testing with
+about 80 rabid testers. Not that we're biased, but the game is awesome (just ask us)! We've drawn from some our favorite games, including 
+<a href="http://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic The Gathering</a>, <a href="http://en.wikipedia.org/wiki/Final_Fantasy_Tactics">Final Fantasy Tactics</a>, 
+and maybe a touch of the flavor from something like <a href="http://en.wikipedia.org/wiki/EarthBound_(series)">Earthbound</a>, and made 
+it available and playable in browser.
+
+
+### Next Up
+
+Ok - so why does this exist? Marketting? <em>Yes</em>, that is a part of it. However, hopefully we can also help tell our development story and 
+give back to the community that we all love so much. For the next few posts we hope to cover how we got started, some of our pitfalls and the decisions
+we made to get us where we are today.
+
