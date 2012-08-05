@@ -45,7 +45,7 @@ We then had a few different card template that we used to construct a variety of
 <img src="/images/born_from_cardboard/cards.png" />
 
 All the cards types in this version are all still in the game today. The only addition was 'Structures' which are essentially 
-immobile Brawlers. The templates here are super flexible, and we printed off a sack of em and created about 50 different types 
+immobile Brawlers. The templates here are super flexible, and we printed off a stack of em and created about 50 different types 
 of cards that we could used with our ever shifting rule-set.
 
 
