@@ -13,6 +13,8 @@ Like most development stories, it started off with <a href="http://kenpratt.net"
 wanting to build something cool. Having met, and then departed, from Electronic Arts after 4 years of service we decided to get the band
 back together and create what is now known as <a href="http://www.atomicbrawl.com">Atomic Brawl</a>.
 
+<!-- more -->
+
 
 ### The Rundown
 
@@ -20,7 +22,36 @@ Development started in May of 2011 and what we've created is a asynchrounous mul
 about 80 rabid testers. Not that we're biased, but the game is awesome (just ask us)! We've drawn from some our favorite games, including 
 <a href="http://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic The Gathering</a>, <a href="http://en.wikipedia.org/wiki/Final_Fantasy_Tactics">Final Fantasy Tactics</a>, 
 and maybe a touch of the flavor from something like <a href="http://en.wikipedia.org/wiki/EarthBound_(series)">Earthbound</a>, and made 
-it available and playable in browser.
+it available and playable in browser (including mobile browsers).
+
+
+### The Game
+
+The game, as sits today looks a little something like this (final art still pending):
+
+<img src="/images/who_we_are/screenshot.png" />
+
+It's asynchronous in that you can play as fast or as slow as you like, and you can have multiple games on the go at a time. Playing the game
+earns you rewards which helps improve the number of cards have access to. These cards build up your collection which you can then use to 
+create your own custom deck and formulate your own strategies with.
+
+Unlike a lot of other online card games, our cards tend have fairly interesting effects that can create very interesting gameplay
+opportunities. Some examples:
+
+* <strong>Stitch</strong> allows you to take two of your own units and combine them together to create a frankestein like creation.
+* <strong>Teleporters</strong> allow you to instantly move units between two locations.
+* <strong>Buried Nuke</strong> is a hidden trap, that if stepped on explodes for <a href="http://www.youtube.com/watch?v=2g1fr5vk72M">massive damage</a>.
+* <strong>Ventriloquism</strong> allows you to control an enemy unit for a single turn.
+* <em>plus +180 more. we hope to continue to add cards post-launch.</em>
+
+Cards all cost energy which is a natually increasing resource. Do you stack your deck with low costing cards and try to end the 
+game quickly, or perhaps you delay the game so that you can play more poweful cards later on? Do you focus on cards with high movement
+or high attack? Perhaps you play lots of traps then try to lure you opponent into killing themselves? These are all valid strategies
+that you could consider when creating a deck in <a href="http://atomicbrawl.com">Atomic Brawl</a>.
+
+Finally, thematically the game is light hearted and fun. While we all love our high fantasy, or future warfar, we wanted a game
+where a _Sugeon_ with a _Big Foam Hand_ could punch a _Pink Tutu_ wearing _T-Rex_ and have it explode causing AOE damage because it had
+eaten a _Burger Bomb_ several turns earlier. This is that game.
 
 
 ### Next Up
@@ -28,4 +59,6 @@ it available and playable in browser.
 Ok - so why does this exist? Marketting? <em>Yes</em>, that is a part of it. However, hopefully we can also help tell our development story and 
 give back to the community that we all love so much. For the next few posts we hope to cover how we got started, some of our pitfalls and the decisions
 we made to get us where we are today.
+
+See the second post in this series <a href="/blog/2012/08/05/born-from-cardboard/">here</a>.
 
