@@ -51,7 +51,7 @@ One huge difference between this and what we have now is the concept of attack a
 
 #### Real-Time vs. Turn-Based Gameplay
 
-We toyed around with a real-time versus turn-based gameplay. While real-time is fun, turn-based gameplay was something that we knew would attract those wanting a more thought-based strategic system opposed to a twitch based one. Furthermore, we knew that turn-based would eventually allow us to go the asynchronous route (which is a decision made further down the line) - which was an attractive option in itself.
+We toyed around with a real-time versus turn-based gameplay. While real-time is fun, turn-based gameplay was something that we knew would attract those wanting a more thought-based strategic system opposed to a twitch based one. Furthermore, we knew that turn-based would eventually allow us to go the asynchronous route, a decision made further down the line, which was an attractive option in and of itself.
 
 
 ### TL;DR
