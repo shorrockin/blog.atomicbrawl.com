@@ -16,7 +16,7 @@ Like most development stories, it started off with <a href="http://kenpratt.net"
 
 ### The Rundown
 
-After some paper prototyping and many heated discussions about What The Hell We Were Building, development began in earnest in March of 2011. A year and a bit later, we've got a real live asynchrounous multiplayer strategy game, currently in beta testing with about 80 rabid testers. Not that we're biased, but the game is awesome! We've drawn from some our favorite games, including  <a href="http://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic The Gathering</a>, <a href="http://en.wikipedia.org/wiki/Final_Fantasy_Tactics">Final Fantasy Tactics</a>,  and maybe a touch of the flavor from something like <a href="http://en.wikipedia.org/wiki/EarthBound_(series)">Earthbound</a>, and made it available and playable in any good old browser (including mobile).
+After some paper prototyping and many heated discussions about What The Hell We Were Building, development began in earnest in March of 2011. A year and a bit later, we've got a real live asynchronous multiplayer strategy game, currently in beta testing with about 80 rabid testers. Not that we're biased, but the game is awesome! We've drawn from some our favourite games, including  <a href="http://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic The Gathering</a>, <a href="http://en.wikipedia.org/wiki/Final_Fantasy_Tactics">Final Fantasy Tactics</a>,  and maybe a touch of the flavour from something like <a href="http://en.wikipedia.org/wiki/EarthBound_(series)">Earthbound</a>, and made it available and playable in any good old browser (including mobile).
 
 
 ### Atomic Brawl
@@ -35,7 +35,7 @@ Unlike most other online card games, our cards have fairly diverse effects that 
 * <strong>Ventriloquism</strong> allows you to control an enemy brawler for a single turn.
 * <em>...and 180 more. We're going to keep adding more cards post-launch, too!</em>
 
-You pay for cards using "energy", which increases automatically throughout the game. The question is, do you stack your deck with low-cost cards in the hopes of polishing your opponent off quickly? Or do you delay the game and knock them off with more poweful cards later on? Do you focus on cards with high movement or high attack? Or perhaps you play loads of traps then try to lure you opponent into killing themselves? These are a but a few of the multitude of strategies you could try in <a href="http://atomicbrawl.com">Atomic Brawl</a>.
+You pay for cards using "energy", which increases automatically throughout the game. The question is, do you stack your deck with low-cost cards in the hopes of polishing your opponent off quickly? Or do you delay the game and knock them off with more powerful cards later on? Do you focus on cards with high movement or high attack? Or perhaps you play loads of traps then try to lure you opponent into killing themselves? These are a but a few of the multitude of strategies you could try in <a href="http://atomicbrawl.com">Atomic Brawl</a>.
 
 Finally, thematically the game is light hearted and fun. While we all love our high fantasy, or future warfare, we wanted a game where a _Sugeon_ with a _Big Foam Hand_ could punch a _Pink Tutu_-wearing _T-Rex_ and have it explode causing AOE damage because it had eaten a _Burger Bomb_ several turns earlier. This is that game.
 
