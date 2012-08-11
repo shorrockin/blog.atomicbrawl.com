@@ -7,7 +7,7 @@ author: Chris
 categories: 
 ---
 
-This is the second in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the first post <a href="/blog/2012/08/03/who-we-are/">here</a>.
+This is the second in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the previous post <a href="/blog/2012/08/03/who-we-are/">here</a>.
 
 ### Digital Paper
 
@@ -57,3 +57,5 @@ We toyed around with a real-time versus turn-based gameplay. While real-time is 
 ### TL;DR
 
 We wanted to make a game! So we built a bunch of paper prototypes, which helped us shape what we were attempting to make. Our original concept shifted from a macro-oriented multiplayer tower defence game to a micro-oriented multiplayer tactics game. Paper prototyping helped us quickly and efficiently tune what we were building.
+
+See the third post in this series <a href="/blog/2012/08/11/hacking-away/">here</a>.
