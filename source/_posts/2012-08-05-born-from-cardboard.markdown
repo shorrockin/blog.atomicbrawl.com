@@ -58,4 +58,4 @@ We toyed around with a real-time versus turn-based gameplay. While real-time is 
 
 We wanted to make a game! So we built a bunch of paper prototypes, which helped us shape what we were attempting to make. Our original concept shifted from a macro-oriented multiplayer tower defence game to a micro-oriented multiplayer tactics game. Paper prototyping helped us quickly and efficiently tune what we were building.
 
-See the third post in this series <a href="/blog/2012/08/11/hacking-away/">here</a>.
+See the third post in this series <a href="/blog/2012/08/17/hacking-with-html5/">here</a>.
