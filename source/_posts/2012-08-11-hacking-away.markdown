@@ -22,18 +22,6 @@ We knew roughly what we were building by all the <a href="/blog/2012/08/05/born-
 
 Our first steps were to determine if we could produce a hex based game board using HTML. We also wanted to assess the performance of HTML5 canvas to see what it could handle. Our very first prototype is included below:
 
-<script data-main="/assets/hacking_away/scripts/main.js" src="/assets/hacking_away/scripts/require.js">
-</script>
-
-<canvas width="100%" height="300" id="canvas">Your browser doesn't support Canvas YO!</canvas>
-<form>
-<input id="lock_fps" type="checkbox" checked>Lock FPS</input> / 
-<input id="run_animation" type="checkbox" checked>Run Animation Loop</input> / 
-<input id="enable_dirty" type="checkbox">Enable Dirty Regions</input> / 
-<input id="add_dude" type="button" value="Add Dude"></input> / 
-<br>
-FPS: <span id="current_fps">N/A</span> (last 10 frames)
-</form>
 
 
 
