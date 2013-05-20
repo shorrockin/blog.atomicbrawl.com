@@ -73,7 +73,10 @@ a {
 }
 
 html {
-  background: $page-bg image-url('line-tile.png') top left;
+  background: url("/images/cta_area_clouds.png") no-repeat center 197px,
+              url("/images/cta_area_bg.png") repeat-x,
+              url("/images/background_fill.png") repeat;
+
 }
 body {
   #main{
