@@ -38,6 +38,6 @@ I believe both of us would've thrown our hands in the air and moved onto somethi
 
 For most games this post would be a post-mortem, marking the end of a journey - for us, this marks the beginning. As a free online product we need to work hard on live-support, marketing, and growth, in addition to development, so that we can turn this into a sustainable venture.  
 
-If failure does happen, we'll be happy having known that we went from nothing to something, without comprimising our vision, and took a shot at something we were <em>passionate</em> about.
+If failure does happen, we'll be happy having known that we went from nothing to something, without compromising our vision, and took a shot at something we were <em>passionate</em> about.
 
 If you're interested, you can play <a href="http://atomicbrawl.com">Atomic Brawl</a> on our site, or check us out in the <a href="http://brawl.in/ab-chromestore">Chrome Web Store</a>. 
