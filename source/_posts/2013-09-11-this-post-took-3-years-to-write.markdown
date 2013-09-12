@@ -14,7 +14,7 @@ Last Sunday, we launched <a href="http://atomicbrawl.com">Atomic Brawl</a>. <a h
 
 <!-- more -->
 
-### As Time Past
+### As Time Passed
 
 Three years is a long time to commit to anything. Both of us having day jobs meant that free time was almost always spent on the project. Over these three years we:
 
