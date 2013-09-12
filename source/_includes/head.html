@@ -7,6 +7,11 @@
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
   <meta name="author" content="{{ site.author }}">
 
+  <meta property="og:image" content="https://ddwyj9ksjq79v.cloudfront.net/images/misc/logo-6409d71e70881ebb44029b95dc9b9afa.png">
+  <meta property="og:title" content="Atomic Blog">
+  <meta property="og:site_name" content="Atomic Blog">
+  <meta property="og:description" content="The developer blog for Atomic Brawl. A multiplayer game that pits two players against each other in stategic and wacky warfare. Playable from your browser.">
+
   {% capture description %}{% if page.description %}{{ page.description }}{% else %}{{ content | raw_content }}{% endif %}{% endcapture %}
   <meta name="description" content="{{ description | strip_html | condense_spaces | truncate:150 }}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
