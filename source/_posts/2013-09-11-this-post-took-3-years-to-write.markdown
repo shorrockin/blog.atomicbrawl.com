@@ -16,7 +16,7 @@ Last Sunday, we launched <a href="http://atomicbrawl.com">Atomic Brawl</a>. <a h
 
 ### As Time Past
 
-Three years is a long time to commit to anything. Both of us having day jobs, we spent almost all of our free time doing this. Over this three years we:
+Three years is a long time to commit to anything. Both of us having day jobs meant that free time was almost always spent on the project. Over these three years we:
 
 * Had 1,867,713 additions, 1,748,514 deletions and 4,923 project commits.
 * Had 10,557 games played, with 1,646,689 brawlers killed in action.
@@ -32,12 +32,12 @@ I believe both of us would've thrown our hands in the air and moved onto somethi
 * <strong>Argue well</strong>: Keep emotions out of arguments. Understand that you have the same objective with differing opinions on how to get there.
 * <strong>Get feedback early</strong>: We've been in beta for the last year. We've been playable for much longer. Fun is a subjective term, having people play and provide feedback was key to crystallizing our vision.
 * <strong>Be a servant</strong>: You should do anything you can to <em>help</em> and <em>respect</em> your users. In doing so you'll develop friendships and relationships that will help you for years to come.
-* <strong>Work your strengths</strong>: Understand what you are, and are not, good at - optimize around these. Trade favors (or cash) for things you need help with. Don't waste hours hours on something someone else can do in minutes. <em>Value your time</em>.
+* <strong>Work your strengths</strong>: Understand what you are, and are not, good at - optimize around this. Trade favors (or cash) for things you need help with. Don't waste hours hours on something someone else can do in minutes. <em>Value your time</em>.
 
 ### Starting Again
 
-For most games this post would be a post-mortem, marking the end of a journey - for us, this marks the beginning. As a free online product we need to work hard on live-support, marketing, and growth, in addition to development, so that we can make this a sustainable venture.  
+For most games this post would be a post-mortem, marking the end of a journey - for us, this marks the beginning. As a free online product we need to work hard on live-support, marketing, and growth, in addition to development, so that we can turn this into a sustainable venture.  
 
 If failure does happen, we'll be happy having known that we went from nothing to something, without comprimising our vision, and took a shot at something we were <em>passionate</em> about.
 
-If you're interested, you can play <a href="http://atomicbrawl.com">Atomic Brawl</a> on our site, or check us out in the <a href="brawl.in/ab-chromestore">Chrome Web Store</a>. 
+If you're interested, you can play <a href="http://atomicbrawl.com">Atomic Brawl</a> on our site, or check us out in the <a href="http://brawl.in/ab-chromestore">Chrome Web Store</a>. 
