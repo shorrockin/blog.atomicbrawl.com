@@ -32,7 +32,7 @@ I believe both of us would've thrown our hands in the air and moved onto somethi
 * <strong>Argue well</strong>: Keep emotions out of arguments. Understand that you have the same objective with differing opinions on how to get there.
 * <strong>Get feedback early</strong>: We've been in beta for the last year. We've been playable for much longer. Fun is a subjective term, having people play and provide feedback was key to crystallizing our vision.
 * <strong>Be a servant</strong>: You should do anything you can to <em>help</em> and <em>respect</em> your users. In doing so you'll develop friendships and relationships that will help you for years to come.
-* <strong>Work your strengths</strong>: Understand what you are, and are not, good at - optimize around this. Trade favors (or cash) for things you need help with. Don't waste hours hours on something someone else can do in minutes. <em>Value your time</em>.
+* <strong>Work your strengths</strong>: Understand what you are, and are not, good at - optimize around this. Trade favours (or cash) for things you need help with. Don't waste hours hours on something someone else can do in minutes. <em>Value your time</em>.
 
 ### Starting Again
 
