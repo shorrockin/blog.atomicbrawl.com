@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "State Of The Game: October 16th"
+title: "State of the Game: October 16th"
 date: 2013-10-16 10:06
 comments: true
 author: Chris
@@ -9,7 +9,7 @@ categories:
 
 We're bad at blogging. We admit it. A friend recently advised us to write more - this is us taking that advice to heart. 
 
-The <em>State of The Game</em> posts will be posted weekly and lay out where the game stands, what we're working on, or anything else that's on our mind. Please let us know if you'd like to hear about anything specifically.
+The <em>State of the Game</em> posts will be posted weekly and lay out where the game stands, what we're working on, or anything else that's on our mind. Please let us know if you'd like to hear about anything specifically.
 
 <!-- more -->
 
