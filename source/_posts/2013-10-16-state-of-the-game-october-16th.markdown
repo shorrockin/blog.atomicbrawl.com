@@ -53,7 +53,7 @@ Not sure when/if or how we'll address these - but I thought it would be interest
 
 ## More Words!
 
-I wanted to say that so far the game is going really well. People seem to be having a really good time. Ken and I are working our buts off to make the game better. We really appreciate all the feedback, support, and advice everyone has given us. We'll continue to work to try to grow this into something amazing. 
+I wanted to say that so far the game is going really well. People seem to be having a really good time. Ken and I are working our butts off to make the game better. We really appreciate all the feedback, support, and advice everyone has given us. We'll continue to work to try to grow this into something amazing. 
 
 If you could help us by telling your friends, giving us a review in the <a href="https://chrome.google.com/webstore/detail/atomic-brawl/jnpalbhkepkfjaobblnkadiccmffklpe?hl=en&gl=CA&authuser=0">Chrome App Store</a>, or just helping us get the word out - we would love you long time.
 
