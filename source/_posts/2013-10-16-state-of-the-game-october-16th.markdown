@@ -7,7 +7,7 @@ author: Chris
 categories: 
 ---
 
-We're bad at blogging. We admit it. A friend recently advised us to write more - this is us taking that advice to heart. 
+We're bad at blogging. We admit it. A friend (tip of the hat to <a target="_blank" href="https://twitter.com/mttalxndrgrrtt">@mttalxndrgrrtt</a>) recently advised us to write more - this is us taking that advice to heart. 
 
 The <em>State of the Game</em> posts will be posted weekly and lay out where the game stands, what we're working on, or anything else that's on our mind. Please let us know if you'd like to hear about anything specifically.
 
