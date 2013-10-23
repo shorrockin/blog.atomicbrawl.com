@@ -4,7 +4,7 @@ title: "State of the Game: October 23rd"
 date: 2013-10-23 08:00
 comments: true
 author: Chris
-categories: 
+categories:
 ---
 
 Remember last week when we said week when we said we were going to make our <em>State of the Game</em> a weekly feature? We're happy to report that we're not dirty liars!
@@ -17,22 +17,22 @@ This week we'll talk about what's next in our work queue, highlight some interes
 
 This week we have a few things we're working on in parallel. As always, bugs are top of the list, and anything that comes in will be addressed immediately.
 
-This week, the amazing folks at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) will begin helping us with the development of some sound effects for the game. One of the biggest critiques we get when people first check out the game is: 
+This week, the amazing folks at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) will begin helping us with the development of some sound effects for the game. One of the biggest critiques we get when people first check out the game is:
 
 > What!? No sound... Why is there no sound? Are my speakers broken? This is a game right!?
 
 Sounds can be turned off if it's not your thing, however we really think this will add a ton of depth and polish to the game. This polish should help us convert more potential players into Atomic Brawl addicts.
 
-On the topic of sound, we've been working on cleaning up the tutorial in preparation for some voice over work. We teamed up <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) to help in this category. We did a trial run of this and the result was amazing. This is another feature that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
+On the topic of sound, we've been working on cleaning up the tutorial in preparation for some voice-over work. We've teamed up with the illustrious <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) to come up with some rocking narration for the tutorial. We did a trial run of this and the result was amazing. This is another thing that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
 
-Finally, on the feature front. This week we're going to try to get an implementation of our <em>Friends</em> feature complete. What is friends you ask? Great question fictional person! Here is what this feature will look like:
+Finally, on the feature front. This week we're going to try to get an implementation of our <em>Friends</em> feature complete. What is friends, you ask? Great question! Here is what this feature will look like:
 
 * Create a list of players you most commonly play with.
-* Track you win/loss record against specific players.
+* Track your win/loss record against specific players.
 * Check out the profile of your friends, their league, records, etc.
 * Quickly invite your friends to games.
-* View the profile of any player your involved with in game.
-* Opt-out of publicly viewable profiles if you're the shy type.
+* View the profiles of your opponents in-game.
+* Opt-out of having a publicly viewable profile if you're the shy type.
 
 The friends feature addresses some super common feedback we get, so let us know if you have any other ideas in this regard.
 
@@ -58,13 +58,12 @@ Which made both Ken and I laugh pretty good. Over on reddit there's a few really
 
 ## Random Thing of the Week
 
-Ok - so what is this feature? Basically, just a place for Ken and I to write a little something about anything on our mind. This week - our <em>Random Thing of the Week</em> will be a link. 
+Ok - so what is this feature? Basically, just a place for Ken and I to write a little something about anything on our mind. This week - our <em>Random Thing of the Week</em> will be a link.
 
-Before we start, Ken and I both love all things <a target="_blank" href="http://day9.tv/">Day9</a>. Ken has, on many occasions, said:
+Before we start, Ken and I both love all things <a target="_blank" href="http://day9.tv/">Day[9]</a>. Ken has, on many occasions, said:
 
-> If Day9 plays our game. That's success. That's all I want. 
+> If Day[9] plays our game, that's success. That's all I want.
 
-So it comes as no surprise that when I run across something Day9 related, Ken get's sent that thing pretty quickly. This week, I found Day9's new web series on the <a target="_blank" href="http://www.geekandsundry.com/">Geek and Sundry</a> channel where he plays <a target="_blank" href="http://www.wizards.com/magic/">MTG</a> with his friends. Since our community has a lot of Magic players, we figured some of you may get a kick out of these, if this is you be sure to check out <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>. It's super well done, and a great way to showcase Magic.
+So it comes as no surprise that when I run across something Day[9] related, Ken gets sent that thing pretty quickly. This week, I found Day[9]'s new web series on the <a target="_blank" href="http://www.geekandsundry.com/">Geek and Sundry</a> channel where he plays <a target="_blank" href="http://www.wizards.com/magic/">MTG</a> with his friends. Since our community has a lot of Magic players, we figured some of you may get a kick out of these, if this is you be sure to check out <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>. It's super well done, and a great way to showcase Magic.
 
 That's all for now. See you next week.
-
