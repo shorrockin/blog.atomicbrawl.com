@@ -23,7 +23,7 @@ This week, the amazing folks at <a target="_blank" href="http://powerupaudio.com
 
 Sounds can be turned off if it's not your thing, however we really think this will add a ton of depth and polish to the game. This polish should help us convert more potential players into Atomic Brawl addicts.
 
-On the topic of sound, we've been working on cleaning up the tutorial in preparation for some voice over work. We teamed up <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a href="https://twitter.com/CapnXez">@CapnXez</a>) to help in this category. We did a trial run of this and the result was amazing. This is another feature that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
+On the topic of sound, we've been working on cleaning up the tutorial in preparation for some voice over work. We teamed up <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) to help in this category. We did a trial run of this and the result was amazing. This is another feature that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
 
 Finally, on the feature front. This week we're going to try to get an implementation of our <em>Friends</em> feature complete. What is friends you ask? Great question fictional person! Here is what this feature will look like:
 
