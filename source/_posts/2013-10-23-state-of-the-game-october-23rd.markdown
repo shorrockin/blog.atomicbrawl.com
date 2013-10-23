@@ -13,7 +13,7 @@ This week we'll talk about what's next in our work queue, highlight some interes
 
 <!-- more -->
 
-## Comming Up Next
+## Coming Up Next
 
 This week we have a few things we're working on in parallel. As always, bugs are top of the list, and anything that comes in will be addressed immediately.
 
@@ -23,16 +23,16 @@ This week, the amazing folks at <a target="_blank" href="http://powerupaudio.com
 
 Sounds can be turned off if it's not your thing, however we really think this will add a ton of depth and polish to the game. This polish should help us convert more potential players into Atomic Brawl addicts.
 
-On the topic of sound, we've been working on cleaning up the tutorial in preperation for some voice over work. We teamed up <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a href="https://twitter.com/CapnXez">@CapnXez</a>) to help in this category. We did a trial run of this and the result was amazing. This is another feature that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
+On the topic of sound, we've been working on cleaning up the tutorial in preparation for some voice over work. We teamed up <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) to help in this category. We did a trial run of this and the result was amazing. This is another feature that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.
 
 Finally, on the feature front. This week we're going to try to get an implementation of our <em>Friends</em> feature complete. What is friends you ask? Great question fictional person! Here is what this feature will look like:
 
 * Create a list of players you most commonly play with.
-* Track you win/loss record against spcefic players.
+* Track you win/loss record against specific players.
 * Check out the profile of your friends, their league, records, etc.
 * Quickly invite your friends to games.
 * View the profile of any player your involved with in game.
-* Opt-out of publically viewable profiles if you're the shy type.
+* Opt-out of publicly viewable profiles if you're the shy type.
 
 The friends feature addresses some super common feedback we get, so let us know if you have any other ideas in this regard.
 
@@ -64,7 +64,7 @@ Before we start, Ken and I both love all things <a target="_blank" href="http://
 
 > If Day9 plays our game. That's success. That's all I want. 
 
-So it comes as no surpise that when I run across something Day9 related, Ken get's sent that thing pretty quickly. This week, I found Day9's new web series on the <a target="_blank" href="http://www.geekandsundry.com/">Geek and Sundry</a> channel where he plays <a target="_blank" href="http://www.wizards.com/magic/">MTG</a> with his friends. Since our community has a lot of Magic players, we figured some of you may get a kick out of these, if this is you be sure to check out <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>. It's super well done, and a great way to showcase Magic.
+So it comes as no surprise that when I run across something Day9 related, Ken get's sent that thing pretty quickly. This week, I found Day9's new web series on the <a target="_blank" href="http://www.geekandsundry.com/">Geek and Sundry</a> channel where he plays <a target="_blank" href="http://www.wizards.com/magic/">MTG</a> with his friends. Since our community has a lot of Magic players, we figured some of you may get a kick out of these, if this is you be sure to check out <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>. It's super well done, and a great way to showcase Magic.
 
 That's all for now. See you next week.
 
