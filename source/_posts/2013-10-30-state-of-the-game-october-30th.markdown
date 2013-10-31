@@ -13,7 +13,7 @@ We'll let you in on a little secret. While we release these posts on Wednesdays,
 
 ## Bleeps and Bloops
 
-Sound effects are coming nearly done! The crew over at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) have been hard at work and are just tweaking some sounds here and there. We think you’ll really like them when you hear them as they add a TON of depth. I would expect to see these launched this weekend.
+Sound effects are coming nearly done! The crew over at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) have been hard at work and are just putting the finishing touches on things. We think you’ll really like them when you hear them as they add a TON of depth. I would expect to see these launched this weekend.
 
 ## Voices in our Heads
 
@@ -21,7 +21,7 @@ Ken and <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess<
 
 ## In Game Friends
 
-The "Friends Feature" was coded last weekend. We just need to make sure it’s bug free and we’ll launch it. This feature adds a few new features to the site:
+The "Friends Feature" was coded last weekend. We just need to make sure it’s bug free and we’ll launch it. This feature adds a few new features:
 
 * When you hover over your opponents avatar in game you can now see their casual or league record along with their deck name. Clicking on their avatar will take you to their public profile.
 * Public profile will give you a brief breakdown on a user and let you see the details of the league they’ve been placed in.
@@ -34,8 +34,8 @@ The next big thing we’ll focus on once we we the things above is launched is b
 
 ## Random Thing of the Week
 
-Last week we talked about Day[9]’s <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>.  There’s a new episode that just come out that is great. We still suggest all you MTG peeps check it out.
+Last week we talked about Day[9]’s <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>.  There’s a new episode that just came out that is great. We still suggest all you MTG peeps check it out. It's still great.
 
-As we said at the top of the post, we checked out a local indie meetup the other night. One of the talks was done by <a target="_blank" href="http://infiniteammo.com/">Alex Holowka</a> (<a target="_blank" href="https://twitter.com/infinite_ammo">@infinite_ammo</a>). He spoke (and very well at that) about the his experiences in indie development and also presented his a trailer for his new game <a href="http://www.nightinthewoods.com/" target="_blank">Night In The Woods</a>.
+As we said at the top of the post, we checked out a local indie meetup the other night. One of the talks was done by <a target="_blank" href="http://infiniteammo.com/">Alex Holowka</a> (<a target="_blank" href="https://twitter.com/infinite_ammo">@infinite_ammo</a>). He spoke (and very well at that) about the his experiences in indie development and also presented his a trailer for his new game - <a href="http://www.nightinthewoods.com/" target="_blank">Night In The Woods</a>.
 
 The game is currently being <a href="http://www.kickstarter.com/projects/1307515311/night-in-the-woods" target="_blank">kickstarted</a> and looks awesome! We urge everyone to check it out. 
