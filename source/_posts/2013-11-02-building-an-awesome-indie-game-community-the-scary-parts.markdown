@@ -13,17 +13,17 @@ Throughout development this vision became more clear. We wanted to build a game 
 
 <!-- more -->
 
-We work hard with our players to make them feel part of the team. We value their opinions, and utilize them to produce the best product we can. It's our hope that by respecting and valuing their thoughts and opinions we can realize our goal.
+We work hard with our players to make them feel involved in the development process. We value their opinions, and utilize them to produce the best game possible. It's our hope that by respecting and valuing their thoughts and opinions we can realize our goal.
 
-With that said, something truly scary happened this Halloween. Something I never anticipated when I started this game. Unfortunately it all started with some deceit from my co-founder:
+With that said, something truly scary happened this Halloween. Something I never anticipated when I began this project. It started  with some deceit from my co-founder:
 
 <center><img src="/images/amazing_community/chat_convo.png" /></center>
 
-Like most lies, it wasn't long before the dirty little secret came bubbling up. In my inbox, the duplicitous nature was presented to me as an attachment. 
+Like most lies, it wasn't long before the dirty little secret came bubbling to the surface. In my inbox, the duplicitous nature of my co-founder was presented to me as an attachment. 
 
 <center><img src="/images/amazing_community/email.png" /></center>
 
-The previous night co-founder had attended a "You Just Turned 30 / It's Halloween - So We All Secretly Dress Up Like Characters From Your Indie Game" party:
+The previous night he had actually attended a "You Just Turned 30 / It's Halloween - So We All Secretly Dress Up Like Characters From Your Indie Game" party:
 
 <center>
 <img src="/images/amazing_community/01_group_shot.jpeg" alt="atomic brawl group shot cosplay 3"/><br>
@@ -39,7 +39,7 @@ The previous night co-founder had attended a "You Just Turned 30 / It's Hallowee
 <em>All the amazing costumes</em><br>
 
 <img src="/images/amazing_community/05_velocirapper_rex.jpeg" alt="velacirapper" /><br>
-<em>Rex and Velocirapper... Kickin it</em><br>
+<em>Rex and Velocirapper... Kickin' it</em><br>
 
 <img src="/images/amazing_community/06_group_shot.jpeg" alt="atomic brawl group shot cosplay"/><br>
 <em>Ahhhh-mazing</em><br>
