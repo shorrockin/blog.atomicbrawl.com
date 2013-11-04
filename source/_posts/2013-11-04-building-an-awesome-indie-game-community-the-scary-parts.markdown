@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building an Awesome Indie Game Community. The Scary Parts."
-date: 2013-11-02 19:38
+date: 2013-11-04 07:00
 comments: true
 author: Chris
 categories:
