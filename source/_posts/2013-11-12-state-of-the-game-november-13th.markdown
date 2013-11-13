@@ -55,7 +55,7 @@ So we have a pretty massive list of things to investigate. So far we're about 1/
 
 In addition to core card changes, we'll also re-examine and possibly change:
 
-* Maximum deck size
+* Minimum deck size
 * Maximum number of cards per deck
 * Function of 'token' units in combination of cards like big red button
 
