@@ -47,8 +47,8 @@ So, there's definitely a first-mover advantage. Currently the only penalty of go
 
 Some ideas we're tossing around:
 
-* Have player #2 get the first energy increase advantage instead of player #1. This would be a bit strange, as we'd either have to start player #1 off at 15 energy, or start at 20 energy like now but player #2 would start at 25 which is also a bit strange.
+* Have player #2 get the first energy increase advantage instead of player #1. We'd either start player #1 off at 15 energy, and player #2 at 20 energy, or start player #1 at 20 energy like now and start player #2 at 25.
+* Start players at same energy, but give player #2 a bonus card in their hand redeemable for a 1-turn energy boost (+5 energy, likely), or perhaps it's usuable 2-3 times on different turns. If you've tried HearthStone, this will be familiar.
 * Lower starting hand size from 5 cards to 4 cards, reducing the options on turn 1 a little bit. Hand sizes also get quite large, so this could be an interesting idea regardless.
-* Give player #2 a bonus card in their hand redeemable for a 1-turn energy boost (+5 energy, likely), possible that's usuable 2-3 times on different turns. If you've tried HearthStone, this will be familiar.
 
 That's all for this week!
