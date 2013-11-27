@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Hacking On HTML5 - Atomic Blog</title>
+  <meta name="author" content="Burger Function Games">
+
+  <meta property="og:image" content="https://ddwyj9ksjq79v.cloudfront.net/images/misc/logo-6409d71e70881ebb44029b95dc9b9afa.png">
+  <meta property="og:title" content="Atomic Blog">
+  <meta property="og:site_name" content="Atomic Blog">
+  <meta property="og:description" content="The developer blog for Atomic Brawl. A multiplayer game that pits two players against each other in stategic and wacky warfare. Playable from your browser.">
+
+  
+  <meta name="description" content="This is the third in a series of articles which outline the development of Atomic Brawl. Check out the previous post here. Choosing Our Tech We knew &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Atomic Blog" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30429159-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup class="main-header">
+  <!--
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">Atomic Blog</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  -->
+  <a class="logo" href="http://atomicbrawl.com"></a>
+  <div class="titles">
+    <h1><a href="/">Atomic Blog</a></h1>
+    
+      <h2>semi-coherent ramblings from the developers of Atomic Brawl</h2>
+    
+  </div>
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.atomicbrawl.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Hacking on HTML5</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-17T09:58:00-07:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>This is the third in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the previous post <a href="/blog/2012/08/05/born-from-cardboard/">here</a>.</p>
+
+<h3>Choosing Our Tech</h3>
+
+<p>We knew roughly what we were building by through the <a href="/blog/2012/08/05/born-from-cardboard/">prototyping</a> we had done prior. Coders at heart we moved onto the always fun task of choosing what technology to use on the front-end. <!-- more --></p>
+
+<p>We decided to use Javascript and HTML for a variety of reasons:</p>
+
+<ul>
+<li>We wanted something that would work both on mobile devices and PCs.</li>
+<li>Our graphical requirements were quite simple, we know we could hit our targets within the boundaries of HTML.</li>
+</ul>
+
+
+<p>So with that, we dug in and started to figure out how we could do this. Our first step was toying with the <a href="http://en.wikipedia.org/wiki/HTML5">HTML5&rsquo;s</a> new <a href="http://en.wikipedia.org/wiki/Canvas_element">Canvas</a> element.</p>
+
+<h3>Stepping Into Canvas</h3>
+
+<p>Canvas is quite simple to use for anyone who has used similar tech. The API is familiar, and while there are quirks, our initial impressions were positive. Our first goal was simple: Using Canvas, layout a hexagon based grid with click detection:</p>
+
+<p><a href="http://shorrockin.com/atomic-brawl-tech-demos/2-isometric-math/index.html"><img src="/images/hacking_with_html/hex_grid.png" /></a></p>
+
+<p>You can play with this <a href="http://shorrockin.com/atomic-brawl-tech-demos/2-isometric-math/index.html">here</a> (with <a href="https://github.com/shorrockin/atomic-brawl-tech-demos/tree/master/2-isometric-math">source</a>). Click to add or remove tiles.</p>
+
+<p>In very little time we had our grid laid out. While ugly &ndash; it proved that it could be done pretty simply. Our next proof of concept was to see how difficult it was to animate things.</p>
+
+<h3>Moving, Moving, Moving</h3>
+
+<p>As we started adding animation we felt the need to wrap this all up in a nice clean framework. While there are quite a few to choose from these days, at the time, there wasn&rsquo;t. We started to put together something that would:</p>
+
+<ul>
+<li>Take care of efficiently redrawing things.</li>
+<li>Allow us to efficiently animate things on a board.</li>
+<li>Provide us a reusable system of components that would could quickly use going forward.</li>
+</ul>
+
+
+<p>With that, we came up with:</p>
+
+<p><a href="http://shorrockin.com/atomic-brawl-tech-demos/8-animation/index.html"><img src="/images/hacking_with_html/animation.png" /></a></p>
+
+<p>Like the previous example you can play with this one <a href="http://shorrockin.com/atomic-brawl-tech-demos/8-animation/index.html">here</a> (with <a href="https://github.com/shorrockin/atomic-brawl-tech-demos/tree/master/8-animation">source</a>). Click on a hexagon to add or remove it, and click on the stationary guy to move him around the board. He will choose the most efficient route given the current state of the board.</p>
+
+<p>This is by no means production quality code but it does achieve a few things:</p>
+
+<ul>
+<li>Outlines techniques on how you can animate with dirty region detection, that is, not redrawing the whole screen on every animation frame.</li>
+<li>Shows how to do <a href="http://en.wikipedia.org/wiki/A*_search_algorithm">A* Pathfinding</a> on a hexagon grid.</li>
+<li>Proves you can get very reasonable frame-rates for simple animations.</li>
+</ul>
+
+
+<p>Now sadly, that last statement was only partially true. One of our reasons for going with HTML was that we wanted to ensure that everything ran well on mobile devices as well. When we wrote this (last year) we couldn&rsquo;t squeeze out more than 15 FPS on a first generation iPad.</p>
+
+<p>Most of this time was spent in clearing and redrawing, especially when semi-opaque images were involved. One technique we didn&rsquo;t experiment with at the time, which may of helped, was using multiple Canvases to represent the different layers.</p>
+
+<p>Regardless, after some time, this lead us to re-evaluate how we were doing things. Perhaps we didn&rsquo;t even need Canvas?</p>
+
+<h3>Moving To CSS3</h3>
+
+<p><a href="http://atomicbrawl.com">Atomic Brawl</a> is not a title that relies on graphical sophistication. We started to wonder if we could do what we needed with just HTML utilizing <a href="http://www.css3.info/">CSS3</a> to animate when needed. It took us about a week to re-write the core abstraction layer to use HTML instead of Canvas and the performance benefits were dramatic.</p>
+
+<p>At this point, there was no compelling reason to Canvas. We could achieve all the animations we needed without it, and had great performance.</p>
+
+<p>You can check-out the resulting CSS3 based animation by checking out our <a href="http://atomicbrawl.com/tutorial">Tutorial</a>.</p>
+
+<h3>TL;DR</h3>
+
+<p>We decided to prototype using HTML5, specifically, Canvas. It ran well and did everything we needed to. Performance on mobile devices was sadly, not up to par. Using straight HTML with CSS3, we were able to achieve the same visual results with great performance on mobile.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Chris</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-17T09:58:00-07:00" pubdate data-updated="true">Aug 17<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/" data-via="AtomicBrawl" data-counturl="http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/08/05/born-from-cardboard/" title="Previous Post: Born From Cardboard">&laquo; Born From Cardboard</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2013/09/11/this-post-took-3-years-to-write/" title="Next Post: This Post Took 3 Years To Write">This Post Took 3 Years To Write &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Links</h1>
+  <ul>
+    <li><a target="_blank" href="http://atomicbrawl.com">Play Atomic Brawl</a></li>
+    <li><a target="_blank" href="https://chrome.google.com/webstore/detail/atomic-brawl/jnpalbhkepkfjaobblnkadiccmffklpe/reviews?hl=en&gl=CA&authuser=0">Visit Us In The Chrome Web Store</a></li>
+    <li><a target="_blank" href="http://reddit.com/r/atomicbrawl/">Interact With Our Users</a></li>
+    <li><a href="mailto:hello@atomicbrawl.com">Email Us</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/11/27/state-of-the-game-november-27th/">State of the Game - November 27th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/13/state-of-the-game-november-13th/">State of the Game - November 13th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/06/state-of-the-game-november-6th/">State of the Game - November 6th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/04/building-an-awesome-indie-game-community-the-scary-parts/">Building an Awesome Indie Game Community. The Scary Parts.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/30/state-of-the-game-october-30th/">State of the Game - October 30th</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("AtomicBrawl", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/AtomicBrawl" class="twitter-follow-button" data-show-count="true">Follow @AtomicBrawl</a>
+  
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - <a href="http://www.burgerfunction.com">Burger Function Games</a>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'atomicblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/';
+        var disqus_url = 'http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

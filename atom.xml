@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Atomic Blog]]></title>
+  <link href="http://blog.atomicbrawl.com/atom.xml" rel="self"/>
+  <link href="http://blog.atomicbrawl.com/"/>
+  <updated>2013-11-27T07:26:32-08:00</updated>
+  <id>http://blog.atomicbrawl.com/</id>
+  <author>
+    <name><![CDATA[Burger Function Games]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game - November 27th]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/11/27/state-of-the-game-november-27th/"/>
+    <updated>2013-11-27T09:00:00-08:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/11/27/state-of-the-game-november-27th</id>
+    <content type="html"><![CDATA[<p>You may of noticed the absence of the State of the Game last week. We&rsquo;ve decided to move to a guaranteed State of the Game every two weeks. This will allow us to devote more time to development while still keeping everyone in the loop.</p>
+
+<p>This week we cover the most recent patch, along with what didn&rsquo;t make it into the patch.</p>
+
+<!-- more -->
+
+
+<h2>The Balance Patch</h2>
+
+<p>We launched the big balance patch last Sunday. For the most part, we feel we made a lot of good strides with this. The amount of feedback (both positive and negative) has been shocking! It&rsquo;s great that people are so passionate about the game!</p>
+
+<p>Balancing is a pretty tough process, and things that we thought worked well in our heads and in testing don&rsquo;t always pan out in play. So bear with us, and we&rsquo;ll keep on tweaking until we get things right. But keep in mind, some changes might seem big in the beginning, but once you settle in and adapt to them, then can be better in the long run.</p>
+
+<p>As always, any and all feedback is more than welcome, so keep it coming!</p>
+
+<h2>Deck Sizes</h2>
+
+<p>We originally planned to include some changes to deck size in this release. However &ndash; there are some complications so we decided to get the balance patch out first, then deal with this.</p>
+
+<p>The intent of this change is to encourage more variety in decks, which should lead to a more interesting and diverse game.</p>
+
+<p>Currently, we have a minimum deck size of 40 cards, with no more than 4 copies of a single card. We are considering moving to a 50 card minimum with a maxmium of 3 cards of any one card.</p>
+
+<p>That ratio is also much closer to those in other collectible card games than what we have now. Magic has a 60 card deck minimum, with max 4 per card, so a ratio of 1:15. HearthStone has 30 cards decks with a 2 per card maximum, so a ratio of 1:15 as will. We currently have a 1:10 ratio, which, when combined with the lack of resources in your deck as in Magic, results in much more predictable plays where you generally get similar cards every game. Moving to a 50 card minimum and max 3 per card would put the ratio at 1:16.6, so a touch higher than Magic, but also lower variance due to the slightly smaller deck size, and a bit less predictable than HearthStone (which, in my humble opinion, is too predictable).</p>
+
+<p>There are quite a few reasons for doing this, the obvious being it forces people to be more creative in their deck building and helps ensure that decks have more variety, which should result in a more interesting &ndash; and strategic &ndash; game.</p>
+
+<h2>First-player advantage</h2>
+
+<p>Another thing we&rsquo;re mulling over is making a change to the advantages/disadvantages to going first or second in the game. The current win ratesfor the starting player at high levels of play (Hitmen and Emperor leagues) are:</p>
+
+<ul>
+<li>Lasting 3-10 turns: 68%</li>
+<li>Lasting 11-20 turns: 59%</li>
+<li>Lasting 21-30 turns: 60%</li>
+<li>Lasting 31-40 turns: 56%</li>
+<li>Lasting 41+ turns: 51%</li>
+</ul>
+
+
+<p>So, there&rsquo;s definitely a first-mover advantage. Currently the only penalty of going first is the lack of a turn 1 draw, but that&rsquo;s not enough, as a 5-card hand is already quite large.</p>
+
+<p>Some ideas we&rsquo;re tossing around:</p>
+
+<ul>
+<li>Have player #2 get the first energy increase advantage instead of player #1. We&rsquo;d either start player #1 off at 15 energy, and player #2 at 20 energy, or start player #1 at 20 energy like now and start player #2 at 25.</li>
+<li>Start players at same energy, but give player #2 a bonus card in their hand redeemable for a 1-turn energy boost (+5 energy, likely), or perhaps it&rsquo;s usuable 2-3 times on different turns. If you&rsquo;ve tried HearthStone, this will be familiar.</li>
+<li>Lower starting hand size from 5 cards to 4 cards, reducing the options on turn 1 a little bit. Hand sizes also get quite large, so this could be an interesting idea regardless.</li>
+</ul>
+
+
+<p>That&rsquo;s all for this week!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game - November 13th]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/11/13/state-of-the-game-november-13th/"/>
+    <updated>2013-11-13T08:00:00-08:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/11/13/state-of-the-game-november-13th</id>
+    <content type="html"><![CDATA[<p>Balance week! This week we talk about the upcoming balance patch. We know that a lot of the long-timers are quite excited about this one since it should shake up the metagame.</p>
+
+<!-- more -->
+
+
+<h2>Our Approach</h2>
+
+<p>When it comes to balance we use a few things to decide what to change:</p>
+
+<ul>
+<li>User feedback: like most things, we constantly gather feedback from players and use this to narrow our focus.</li>
+<li>Gameplay statistics: We have the ability to collect and report on various things about games being played. Things like how often various cards are used, win percentage, etc.</li>
+<li>Math: We have an internal calculator we use to determine the cost (energy) of a card. This isn&rsquo;t an exact science but the more we use it, the better it gets.</li>
+</ul>
+
+
+<h2>The Actual Changes</h2>
+
+<p>So we have a pretty massive list of things to investigate. So far we&rsquo;re about &frac12; way through. The approved changes so far include:</p>
+
+<ul>
+<li><em>Party Crasher</em> comes-into-play damage increased from 10 to 20, and attack reduced from 35 to 30.</li>
+<li><em>Shogun</em> health increased from 85 to 90.</li>
+<li><em>Leather Daddy</em> armor increased from 5 to 20, health reduced from 105 to 90.</li>
+<li><em>Land Mine</em> damage increased from 45 to 50.</li>
+<li><em>Banana Peel</em> damage increased from 25 to 30.</li>
+<li><em>Silly Monkey</em> health reduced from 85 to 70 (and benefits from Banana Peel buff).</li>
+<li><em>Snake Basket</em> changed from 10 damage per turn for 5 turns to 15 damage per turn for 3 turns, initial damage increased from 10 to 15.</li>
+<li><em>Engulfing Flames</em> damage increased from 40 to 50, energy cost increased from 35 to 40.</li>
+<li><em>Spike Pit</em> energy cost reduced from 50 to 35.</li>
+<li><em>Replicator</em> energy cost reduced from 30 to 25.</li>
+<li><em>Trampoline</em> energy cost reduced from 30 to 25.</li>
+<li><em>Electrocute</em> base energy cost increased from 10 to 20.</li>
+<li><em>Molotov Cocktail</em> damage reduced from 60 to 50.</li>
+<li><em>Combustible Lemon</em> damage changed from 50 to the target and 25 to surrounding pieces to 35 to target as well as surrounding pieces.</li>
+<li><em>Warp</em> energy cost increased from 25 to 30.</li>
+<li><em>Holy Rain</em> energy cost reduced from 30 to 25, number of effects reduced from 4 to 3.</li>
+<li><em>Skyhook</em> energy cost reduced from 45 to 20, number of uses reduced from 2 to 1.</li>
+<li><em>Disgruntled Mailman</em> movement range increased from 2 to 3.</li>
+<li><em>Origami Shop</em> energy cost reduced from 45 to 35.</li>
+<li><em>Extra Life</em> now gives a +20 health buff as well as healing to full health.</li>
+<li><em>Energy Drink</em> energy cost increased from 30 to 50, energy gain changed from current base energy to fixed at 75.</li>
+<li><em>Resurrection</em> energy cost reduced from 25 to 20.</li>
+<li><em>Witch Doctor</em> health increased from 85 to 90, attack increased from 35 to 40.</li>
+<li><em>Deranged Mime</em> energy cost reduced from 65 to 50, health reduced from 120 to 100, armor reduced from 10 to 0, attack reduced from 30 to 20, Mimery ability extended to clone attack range, movement range, and armor as well as attack damage.</li>
+<li><em>Intern</em> health increased from 90 to 100, attack increased from 55 to 60.</li>
+<li><em>King Cobra</em> health reduced from 105 to 90, movement range increased from 2 to 3, attack power reduced from 10 to 1, poison damage changed from 25 for 3 turns to 30 for 3 turns.</li>
+<li><em>Piggy Bank</em> energy cost reduced from 30 to 20.</li>
+<li><em>Bunker</em> armor buff increased from 10 to 15.</li>
+<li><em>Magnet</em> energy cost increased from 35 to 40, health decreased from 60 to 50, effect range increased from 2 to 3.</li>
+</ul>
+
+
+<p>In addition to core card changes, we&rsquo;ll also re-examine and possibly change:</p>
+
+<ul>
+<li>Minimum deck size</li>
+<li>Maximum number of cards per deck</li>
+<li>Function of &lsquo;token&rsquo; units in combination of cards like big red button</li>
+</ul>
+
+
+<p>This all of course may change before we release it, but we thought it made sense to show you the direction of things to come.</p>
+
+<h2>Random Thing of the Week</h2>
+
+<p>We like to celebrate our failures. With that in mind, here&rsquo;s a pretty funny bug report (now fixed) that involved Bully pushing a unit into a Wormhole. The pushed unit would then travel back across the map, and in this case, hit every trap on the way:</p>
+
+<center>
+<iframe width="420" height="315" src="http://blog.atomicbrawl.com//www.youtube.com/embed/mirkvKGvF0w" frameborder="0" allowfullscreen></iframe>
+</center>
+
+
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game - November 6th]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/11/06/state-of-the-game-november-6th/"/>
+    <updated>2013-11-06T21:07:00-08:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/11/06/state-of-the-game-november-6th</id>
+    <content type="html"><![CDATA[<p>Another week, another weekly update. This week we talk a bit about our philosophy on how we balance, our new friends feature, sounds, leagues and cosplay.</p>
+
+<!-- more -->
+
+
+<h2>Balancing &ndash; Up Next!</h2>
+
+<p>A big balance pass is coming up next in the development queue. We have a few goals for this, but at a high level it&rsquo;s quite simple:</p>
+
+<ul>
+<li>Identify which cards/cores are under and over utilized.</li>
+<li>Determine which cards are too strong or weak in relation to their energy cost.</li>
+</ul>
+
+
+<p>Balancing is a very tricky topic, and a tough intellectual exercise. Generally speaking we tend to be conservative with these things and would rather take many small steps than completely nerfing or buffing a card. There is currently some lively conversations over on our <a target="_blank" href="http://www.reddit.com/r/atomicbrawl/">subreddit</a> for anyone who wants to weigh in on the topic.</p>
+
+<h2>Friends &ndash; Now Available (<em>requires actual friends</em>)</h2>
+
+<p>Last night we launched our friends feature. Now you can <strong>track your record</strong> against your friends, <strong>chat out of game</strong> with them, and view their stats. You can also <strong>view anyone&rsquo;s profile</strong> &mdash; someone you&rsquo;re playing a game with, or anyone in your league.</p>
+
+<h2>Sounds &ndash; This Week</h2>
+
+<p>Sounds are pretty much all done! This includes both sound effects, and the voice over on the tutorial. The folks at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> are just cleaning some things up and then we&rsquo;ll release it onto the world. This should be ready in the next week, so keep your eyes and ears open.</p>
+
+<h2>Leagues &ndash; Minor Change</h2>
+
+<p>We made a change to leagues so that people don&rsquo;t end up in small divisions almost all alone. For now, we combined things into a single division per league. So take another look at your league &ndash; you should have some new friends to play with! Once we have so many players that the leagues are getting so large to be silly, we&rsquo;ll go back to splitting things up into smaller divisions.</p>
+
+<h2>Random Thing of the Week</h2>
+
+<p>So&hellip; Did you see our recent post about Atomic Brawl cosplay? If not &ndash; you should probably go check that out. <a href="http://blog.atomicbrawl.com/blog/2013/11/04/building-an-awesome-indie-game-community-the-scary-parts/">Click here for all the amazing photos</a>. Here&rsquo;s a little teaser:</p>
+
+<center>
+<img src="http://blog.atomicbrawl.com/images/amazing_community/03_mr_roboto_rex.jpeg" alt="Mr. Roboto and Rex" />
+</center>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Building an Awesome Indie Game Community. The Scary Parts.]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/11/04/building-an-awesome-indie-game-community-the-scary-parts/"/>
+    <updated>2013-11-04T07:00:00-08:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/11/04/building-an-awesome-indie-game-community-the-scary-parts</id>
+    <content type="html"><![CDATA[<p>When Ken and I started Atomic Brawl, we had many discussions about the type of game we wanted to build. This of course included mechanics, art, and tech &ndash; but it also included what we wanted the game to become.</p>
+
+<p>Throughout development, this vision became more clear. We wanted to build a game that people loved. We wanted to build a game that people obsessed over. We wanted to build a community.</p>
+
+<!-- more -->
+
+
+<p>We work hard with our players to make them feel involved in the development process. We value their opinions, and incoporate all we hear to produce the best game possible. It&rsquo;s our hope that by respecting and valuing their thoughts, we can realize our goal.</p>
+
+<p>With that said, something truly scary happened this Halloween. Something I never anticipated when I began this project. It started  with some deceit from my co-founder:</p>
+
+<center><img src="http://blog.atomicbrawl.com/images/amazing_community/chat_convo.png" /></center>
+
+
+<p>Like most lies, it wasn&rsquo;t long before the dirty little secret came bubbling to the surface. In my inbox, the duplicitous nature of my co-founder was presented to me as an attachment.</p>
+
+<center><img src="http://blog.atomicbrawl.com/images/amazing_community/email.png" /></center>
+
+
+<p>The previous night he had actually attended a &ldquo;You Just Turned 30 / It&rsquo;s Halloween &ndash; So We All Secretly Dressed Up As Characters From Your Indie Game&rdquo; party:</p>
+
+<center>
+<img src="http://blog.atomicbrawl.com/images/amazing_community/01_group_shot.jpeg" alt="atomic brawl group shot cosplay 3"/><br>
+<em>The entire crew</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/original_art.png" alt="original art for various brawlers"/><br>
+<em>Top Left to Bottom Right: Herman, Lazy Cupid, Mr. Roboto, Party Crasher, Rex, Sherman, Velocirapper</em>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/02_cupid_party.jpeg" alt="lazy cupid and party crasher"/><br>
+<em>Lazy Cupid and Party Crasher. Yes he shaved his head like that. For reals. How did he find a shirt so close to the original!?</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/03_mr_roboto_rex.jpeg" alt="mr roboto and rex" /><br>
+<em>Mr Robot and Rex duking it out, just like old times.</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/04_group_shot.jpeg" alt="atomic brawl group shot cosplay 2"/><br>
+<em>All the amazing costumes</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/05_velocirapper_rex.jpeg" alt="velacirapper" /><br>
+<em>Rex and Velocirapper&#8230; Kickin&#8217; it</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/06_group_shot.jpeg" alt="atomic brawl group shot cosplay"/><br>
+<em>Ahhhh-mazing</em><br>
+
+<img src="http://blog.atomicbrawl.com/images/amazing_community/07_herman_sherman.jpeg" alt="sherman and herman"/><br>
+<em>The dynamic duo, at it again</em><br>
+</center>
+
+
+
+
+<br/>
+
+
+<p>I really didn&rsquo;t anticipate cosplay so close to launch! But man, these pictures blew me away. For this, as so many more reasons, our community is amazing!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game - October 30th]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/10/30/state-of-the-game-october-30th/"/>
+    <updated>2013-10-30T20:22:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/10/30/state-of-the-game-october-30th</id>
+    <content type="html"><![CDATA[<p>We&rsquo;ll let you in on a little secret. While we release these posts on Wednesdays, we actually write them on Tuesday. This Tuesday, however, Ken and I made our way to a local <a target="_blank" href="http://www.meetup.com/Vancouver-Indie-Game-Developers/">indie meetup</a> to socialize, drink and let some people play Atomic Brawl. With that in mind, this one is briefer (and later) than usual.</p>
+
+<!-- more -->
+
+
+<h2>Bleeps and Bloops</h2>
+
+<p>Sound effects are nearly done! The crew over at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) has been hard at work, and is just putting the finishing touches on things. We think you’ll really like these when you hear them as they add a TON of depth to the game. We expect to have these live sometime this weekend.</p>
+
+<h2>Voices in our Heads</h2>
+
+<p>Ken and <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) recorded a heap of takes for the voice overs for the tutorial last Friday. The results are super awesome, and ridiculously funny. We just need to choose what takes we want and toss them in the game. This will go live sometime in the next week.</p>
+
+<h2>In Game Friends</h2>
+
+<p>We finished the &ldquo;Friends Feature&rdquo; on the weekend. Just a bit more testing to do, and then it&rsquo;s launch time! This will mean a few new things:</p>
+
+<ul>
+<li>When you hover over your opponent in-game, you can see their play record and their deck name. Clicking on their avatar will take you to their public profile.</li>
+<li>Public profile will give you a breakdown on a player&rsquo;s record as well as their current league ranking.</li>
+<li>You can add players as friends! Not only will that make it easier to start games with them, but we&rsquo;ll also track your record against them. This way you can always know how you’ve done against everyone on your friends list.</li>
+</ul>
+
+
+<h2>Balancing Act</h2>
+
+<p>The next big thing we’ll focus on once all of that is launched is balance. Balance is a tricky topic, but we have a boat-load of feedback along with various stats that we can use to determine which cards are underpowered and which are overpowered. If you have any thoughts or ideas, please send us in-game feedback and we’ll incorporate your suggestions into our balancing discussions.</p>
+
+<h2>Random Thing of the Week</h2>
+
+<p>Last week we mentioned Day[9]’s <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>.  There’s a new episode that just came out and it is full of awesome. Check it out, MTG peeps!</p>
+
+<p><a target="_blank" href="http://infiniteammo.com/">Alex Holowka</a> (<a target="_blank" href="https://twitter.com/infinite_ammo">@infinite_ammo</a>), creator of Aquaria, gave an AWESOME talk at the event we attended about his experiences as an indie dev and also included a trailer for his upcoming game, <a href="http://www.nightinthewoods.com/" target="_blank">Night In The Woods</a>. The game is currently being <a href="http://www.kickstarter.com/projects/1307515311/night-in-the-woods" target="_blank">kickstarted</a> and looks awesome! We backed it, and SO SHOULD YOU!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game: October 23rd]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/10/23/state-of-the-game-october-23rd/"/>
+    <updated>2013-10-23T08:00:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/10/23/state-of-the-game-october-23rd</id>
+    <content type="html"><![CDATA[<p>Remember last week when we said week when we said we were going to make our <em>State of the Game</em> a weekly feature? We&rsquo;re happy to report that we&rsquo;re not dirty liars!</p>
+
+<p>This week we&rsquo;ll talk about what&rsquo;s next in our work queue, highlight some interesting community goings-on, and introduce a <em>Random Thing of the Week</em>.</p>
+
+<!-- more -->
+
+
+<h2>Coming Up Next</h2>
+
+<p>This week we have a few things we&rsquo;re working on in parallel. As always, bugs are top of the list, and anything that comes in will be addressed immediately.</p>
+
+<p>This week, the amazing folks at <a target="_blank" href="http://powerupaudio.com/">Power Up Audio</a> (<a target="_blank" href="https://twitter.com/PowerUpAudio">@PowerUpAudio</a>) will begin helping us with the development of some sound effects for the game. One of the biggest critiques we get when people first check out the game is:</p>
+
+<blockquote><p>What!? No sound&hellip; Why is there no sound? Are my speakers broken? This is a game right!?</p></blockquote>
+
+<p>Sounds can be turned off if it&rsquo;s not your thing, however we really think this will add a ton of depth and polish to the game. This polish should help us convert more potential players into Atomic Brawl addicts.</p>
+
+<p>On the topic of sound, we&rsquo;ve been working on cleaning up the tutorial in preparation for some voice-over work. We&rsquo;ve teamed up with the illustrious <a target="_blank" href="http://www.makewordshappen.com/">Jacob Burgess</a> (<a target="_blank" href="https://twitter.com/CapnXez">@CapnXez</a>) to come up with some rocking narration for the tutorial. We did a trial run of this and the result was amazing. This is another thing that will really help us get some more <strike>meat</strike> players for everyone to <strike>consume</strike> play with.</p>
+
+<p>Finally, on the feature front. This week we&rsquo;re going to try to get an implementation of our <em>Friends</em> feature complete. What is friends, you ask? Great question! Here is what this feature will look like:</p>
+
+<ul>
+<li>Create a list of players you most commonly play with.</li>
+<li>Track your win/loss record against specific players.</li>
+<li>Check out the profile of your friends, their league, records, etc.</li>
+<li>Quickly invite your friends to games.</li>
+<li>View the profiles of your opponents in-game.</li>
+<li>Opt-out of having a publicly viewable profile if you&rsquo;re the shy type.</li>
+</ul>
+
+
+<p>The friends feature addresses some super common feedback we get, so let us know if you have any other ideas in this regard.</p>
+
+<h2>Community Shout-Outs</h2>
+
+<p>I thought this week I would bring attention to some cool community stuff. Let us know throughout the week if there&rsquo;s anything you think should be mentioned in this section.</p>
+
+<p>Firstly from <a target="_blank" href="https://twitter.com/JustinMolinari">@JustinMolinari</a> we have:</p>
+
+<blockquote class="twitter-tweet"><p>Still hooked on <a href="https://twitter.com/AtomicBrawl">@AtomicBrawl</a> after more than a month! Really surprised this game has not seen more buzz. Come battle: <a href="http://t.co/9PbPkf4O5r">http://t.co/9PbPkf4O5r</a></p>&mdash; Justin Molinari (@JustinMolinari) <a href="https://twitter.com/JustinMolinari/statuses/392732194214383616">October 22, 2013</a></blockquote>
+
+
+<script async src="http://blog.atomicbrawl.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>We love hearing this sort of stuff. We hope we can generate more buzz soon. Internetting is hard. Next up we have <a target="_blank" href="https://twitter.com/AlexCatamo">@AlexCatamo</a> who wrote:</p>
+
+<blockquote class="twitter-tweet"><p><a href="https://twitter.com/AtomicBrawl">@AtomicBrawl</a>. A sweet <a href="https://twitter.com/search?q=%23game&amp;src=hash">#game</a> for next time you feel like NEVER BEING ABLE TO STOP <a href="http://t.co/6Q6GmhbtGr">http://t.co/6Q6GmhbtGr</a></p>&mdash; Alex Catamo (@AlexCatamo) <a href="https://twitter.com/AlexCatamo/statuses/387128815010709504">October 7, 2013</a></blockquote>
+
+
+<script async src="http://blog.atomicbrawl.com//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+<p>Which made both Ken and I laugh pretty good. Over on reddit there&rsquo;s a few really interesting discussions going on:</p>
+
+<ul>
+<li><a target="_blank" href="http://www.reddit.com/r/atomicbrawl/comments/1osh8d/rethinking_puppet_etc/">Puppet Problems</a>: We know that these control cards can be frustrating, and would love to get feedback from the community as to what everyone else thinks.</li>
+<li><a target="_blank" href="http://www.reddit.com/r/atomicbrawl/comments/1oiy4s/low_cost_card_spam_is_broken_i_suggest_a_fix/">Low Cost Card Spam</a>: Here&rsquo;s another one we&rsquo;re following closely as it relates to card balance. Low cost cards, and Aggronium are on our radar, but we haven&rsquo;t yet settled on how we want to address this.</li>
+<li><a target="_blank" href="http://www.reddit.com/r/atomicbrawl/comments/1oy277/more_challenges/">More Challenges</a>: We get a lot of requests for more challenges. Here we mention that if anyone has a good concept for a challenge, send it our way, and it may end up in game.</li>
+</ul>
+
+
+<h2>Random Thing of the Week</h2>
+
+<p>Ok &ndash; so what is this feature? Basically, just a place for Ken and I to write a little something about anything on our mind. This week &ndash; our <em>Random Thing of the Week</em> will be a link.</p>
+
+<p>Before we start, Ken and I both love all things <a target="_blank" href="http://day9.tv/">Day[9]</a>. Ken has, on many occasions, said:</p>
+
+<blockquote><p>If Day[9] plays our game, that&rsquo;s success. That&rsquo;s all I want.</p></blockquote>
+
+<p>So it comes as no surprise that when I run across something Day[9] related, Ken gets sent that thing pretty quickly. This week, I found Day[9]&rsquo;s new web series on the <a target="_blank" href="http://www.geekandsundry.com/">Geek and Sundry</a> channel where he plays <a target="_blank" href="http://www.wizards.com/magic/">MTG</a> with his friends. Since our community has a lot of Magic players, we figured some of you may get a kick out of these, if this is you be sure to check out <a target="_blank" href="http://spellslingers.geekandsundry.com/">Spellslingers</a>. It&rsquo;s super well done, and a great way to showcase Magic.</p>
+
+<p>That&rsquo;s all for now. See you next week.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[State of the Game: October 16th]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/10/16/state-of-the-game-october-16th/"/>
+    <updated>2013-10-16T10:06:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/10/16/state-of-the-game-october-16th</id>
+    <content type="html"><![CDATA[<p>We&rsquo;re bad at blogging. We admit it. A friend (tip of the hat to <a target="_blank" href="https://twitter.com/mttalxndrgrrtt">@mttalxndrgrrtt</a>) recently advised us to write more &ndash; this is us taking that advice to heart.</p>
+
+<p>The <em>State of the Game</em> posts will be posted weekly and lay out where the game stands, what we&rsquo;re working on, or anything else that&rsquo;s on our mind. Please let us know if you&rsquo;d like to hear about anything specifically.</p>
+
+<!-- more -->
+
+
+<h2>Our Current Focus</h2>
+
+<p>Users! And more users! We currently have about 400 active players (about 2100 signups). For new users coming in they can often have problems finding a game. We secretly (evil laugh here) changed our algorithm for matchmaking the other day to broaden this criteria a bit &ndash; however &ndash; it&rsquo;s still a population problem, and one we&rsquo;re working hard to address.</p>
+
+<p>Along these lines, we&rsquo;ve found that we don&rsquo;t do a great job of getting people to signup. Once they do however, most people really seem to enjoy things. To address this we are working on:</p>
+
+<ul>
+<li>A trailer showcasing the basic gameplay and tone.</li>
+<li>Sound effects to assist with the first impression and polish.</li>
+<li>Voice over for the trailer to help establish tone and guide users along the tutorial in a more vibrant fashion.</li>
+</ul>
+
+
+<p>All of these efforts are largely being done by friends, or other talented people we&rsquo;ve managed to snag. This means Ken and I can continue working on features, bugs, customer support, etc. Once these are in place we can push our marketing efforts a little harder &ndash; and hopefully find a bigger audience.</p>
+
+<h2>What&rsquo;s Upcoming?</h2>
+
+<p>Over the past week or so we&rsquo;ve been super busy with in-game support, minor bug fixes, and consuming turkey for Canadian thanksgiving. Here are some things that will be deployed in the next week:</p>
+
+<ul>
+<li>Number of cards remaining in your deck is now visible in-game</li>
+<li>Holy Water bugs with Hypnotic Watch bugs addressed</li>
+<li>Fresh Start has been fixed</li>
+<li>Login &ldquo;remember me&rdquo; functionality addressed</li>
+<li>League promotions / demotions can no longer occur on a loss/win respectively.</li>
+</ul>
+
+
+<p>Plus a bunch more smaller tickets that we&rsquo;ll get done over the next few days. Finally, here are some more interesting higher priority things which may make it in if time permits:</p>
+
+<ul>
+<li>Friends and public player profiles.</li>
+<li>Auto-cancellation of quick match when you leave site.</li>
+<li>Improved quick match functionality (perhaps a chess-clock like system, with auto end-turn, details pending).</li>
+</ul>
+
+
+<h2>Balance Problems</h2>
+
+<p>We get a lot of questions, comments about balance. Here are some common requests that we will likely address soon:</p>
+
+<ul>
+<li>Aggronium is a wee bit too good (currently Aggronium wins ~63% of its games).</li>
+<li>Shellinium is wee bit too bad (currently loses 65% of its games).</li>
+<li>Party Animal is a little over powered.</li>
+</ul>
+
+
+<p>Not sure when/if or how we&rsquo;ll address these &ndash; but I thought it would be interesting to list out these common concerns.</p>
+
+<h2>More Words!</h2>
+
+<p>I wanted to say that so far the game is going really well. People seem to be having a really good time. Ken and I are working our butts off to make the game better. We really appreciate all the feedback, support, and advice everyone has given us. We&rsquo;ll continue to work to try to grow this into something amazing.</p>
+
+<p>If you could help us by telling your friends, giving us a review in the <a href="https://chrome.google.com/webstore/detail/atomic-brawl/jnpalbhkepkfjaobblnkadiccmffklpe?hl=en&gl=CA&authuser=0">Chrome App Store</a>, or just helping us get the word out &ndash; we would love you long time.</p>
+
+<p>More words next wednesday &ndash; keep brawling&#8217;.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[This Post Took 3 Years To Write]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2013/09/11/this-post-took-3-years-to-write/"/>
+    <updated>2013-09-11T19:39:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2013/09/11/this-post-took-3-years-to-write</id>
+    <content type="html"><![CDATA[<p>Three(<em>ish</em>) years agos we began working on <a href="http://atomicbrawl.com">Atomic Brawl</a>. Two years ago we thought “maybe we can launch this Christmas”. One(<em>ish</em>) year ago, we thought we would launch in the summer.</p>
+
+<p>Making software is difficult. Making software whose objective is as abstract as fun compounds that.</p>
+
+<p>Last Sunday, we launched <a href="http://atomicbrawl.com">Atomic Brawl</a>. <a href="http://atomicbrawl.com">Atomic Brawl</a> is an in-browser strategy game where you can take turns in bite-sized chunks, allowing it to fit into <em>any schedule</em>.  You collect brawlers, formulate strategies, and compete online against other players.</p>
+
+<!-- more -->
+
+
+<h3>As Time Passed</h3>
+
+<p>Three years is a long time to commit to anything. Both of us having day jobs meant that free time was almost always spent on the project. Over these three years we:</p>
+
+<ul>
+<li>Had 1,867,713 additions, 1,748,514 deletions and 4,923 project commits.</li>
+<li>Had 10,557 games played, with 1,646,689 brawlers killed in action.</li>
+<li>Introduced a third partner, then watched, as he left to do fantastic work on Sim City 5.</li>
+<li>Saw my youngest daughter learn to speak properly, read, write, finish kindergarten, and start grade 1.</li>
+<li>Had amazing support from our families and loved ones who supported us unconditionally.</li>
+</ul>
+
+
+<h3>Take Aways</h3>
+
+<p>I believe both of us would&rsquo;ve thrown our hands in the air and moved onto something else if it wasn&rsquo;t for a few key things:</p>
+
+<ul>
+<li><strong>Like who you work with</strong>: In life, and in business, surrounding yourself with people you enjoy makes difficult times easy.</li>
+<li><strong>Argue well</strong>: Keep emotions out of arguments. Understand that you have the same objective with differing opinions on how to get there.</li>
+<li><strong>Get feedback early</strong>: We&rsquo;ve been in beta for the last year. We&rsquo;ve been playable for much longer. Fun is a subjective term, having people play and provide feedback was key to crystallizing our vision.</li>
+<li><strong>Be a servant</strong>: You should do anything you can to <em>help</em> and <em>respect</em> your users. In doing so you&rsquo;ll develop friendships and relationships that will help you for years to come.</li>
+<li><strong>Work your strengths</strong>: Understand what you are, and are not, good at &ndash; optimize around this. Trade favours (or cash) for things you need help with. Don&rsquo;t waste hours hours on something someone else can do in minutes. <em>Value your time</em>.</li>
+</ul>
+
+
+<h3>Starting Again</h3>
+
+<p>For most games this post would be a post-mortem, marking the end of a journey &ndash; for us, this marks the beginning. As a free online product we need to work hard on live-support, marketing, and growth, in addition to development, so that we can turn this into a sustainable venture.</p>
+
+<p>If failure does happen, we&rsquo;ll be happy having known that we went from nothing to something, without compromising our vision, and took a shot at something we were <em>passionate</em> about.</p>
+
+<p>If you&rsquo;re interested, you can play <a href="http://atomicbrawl.com">Atomic Brawl</a> on our site, or check us out in the <a href="http://brawl.in/ab-chromestore">Chrome Web Store</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Hacking On HTML5]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/"/>
+    <updated>2012-08-17T09:58:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5</id>
+    <content type="html"><![CDATA[<p>This is the third in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the previous post <a href="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/">here</a>.</p>
+
+<h3>Choosing Our Tech</h3>
+
+<p>We knew roughly what we were building by through the <a href="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/">prototyping</a> we had done prior. Coders at heart we moved onto the always fun task of choosing what technology to use on the front-end. <!-- more --></p>
+
+<p>We decided to use Javascript and HTML for a variety of reasons:</p>
+
+<ul>
+<li>We wanted something that would work both on mobile devices and PCs.</li>
+<li>Our graphical requirements were quite simple, we know we could hit our targets within the boundaries of HTML.</li>
+</ul>
+
+
+<p>So with that, we dug in and started to figure out how we could do this. Our first step was toying with the <a href="http://en.wikipedia.org/wiki/HTML5">HTML5&rsquo;s</a> new <a href="http://en.wikipedia.org/wiki/Canvas_element">Canvas</a> element.</p>
+
+<h3>Stepping Into Canvas</h3>
+
+<p>Canvas is quite simple to use for anyone who has used similar tech. The API is familiar, and while there are quirks, our initial impressions were positive. Our first goal was simple: Using Canvas, layout a hexagon based grid with click detection:</p>
+
+<p><a href="http://shorrockin.com/atomic-brawl-tech-demos/2-isometric-math/index.html"><img src="http://blog.atomicbrawl.com/images/hacking_with_html/hex_grid.png" /></a></p>
+
+<p>You can play with this <a href="http://shorrockin.com/atomic-brawl-tech-demos/2-isometric-math/index.html">here</a> (with <a href="https://github.com/shorrockin/atomic-brawl-tech-demos/tree/master/2-isometric-math">source</a>). Click to add or remove tiles.</p>
+
+<p>In very little time we had our grid laid out. While ugly &ndash; it proved that it could be done pretty simply. Our next proof of concept was to see how difficult it was to animate things.</p>
+
+<h3>Moving, Moving, Moving</h3>
+
+<p>As we started adding animation we felt the need to wrap this all up in a nice clean framework. While there are quite a few to choose from these days, at the time, there wasn&rsquo;t. We started to put together something that would:</p>
+
+<ul>
+<li>Take care of efficiently redrawing things.</li>
+<li>Allow us to efficiently animate things on a board.</li>
+<li>Provide us a reusable system of components that would could quickly use going forward.</li>
+</ul>
+
+
+<p>With that, we came up with:</p>
+
+<p><a href="http://shorrockin.com/atomic-brawl-tech-demos/8-animation/index.html"><img src="http://blog.atomicbrawl.com/images/hacking_with_html/animation.png" /></a></p>
+
+<p>Like the previous example you can play with this one <a href="http://shorrockin.com/atomic-brawl-tech-demos/8-animation/index.html">here</a> (with <a href="https://github.com/shorrockin/atomic-brawl-tech-demos/tree/master/8-animation">source</a>). Click on a hexagon to add or remove it, and click on the stationary guy to move him around the board. He will choose the most efficient route given the current state of the board.</p>
+
+<p>This is by no means production quality code but it does achieve a few things:</p>
+
+<ul>
+<li>Outlines techniques on how you can animate with dirty region detection, that is, not redrawing the whole screen on every animation frame.</li>
+<li>Shows how to do <a href="http://en.wikipedia.org/wiki/A*_search_algorithm">A* Pathfinding</a> on a hexagon grid.</li>
+<li>Proves you can get very reasonable frame-rates for simple animations.</li>
+</ul>
+
+
+<p>Now sadly, that last statement was only partially true. One of our reasons for going with HTML was that we wanted to ensure that everything ran well on mobile devices as well. When we wrote this (last year) we couldn&rsquo;t squeeze out more than 15 FPS on a first generation iPad.</p>
+
+<p>Most of this time was spent in clearing and redrawing, especially when semi-opaque images were involved. One technique we didn&rsquo;t experiment with at the time, which may of helped, was using multiple Canvases to represent the different layers.</p>
+
+<p>Regardless, after some time, this lead us to re-evaluate how we were doing things. Perhaps we didn&rsquo;t even need Canvas?</p>
+
+<h3>Moving To CSS3</h3>
+
+<p><a href="http://atomicbrawl.com">Atomic Brawl</a> is not a title that relies on graphical sophistication. We started to wonder if we could do what we needed with just HTML utilizing <a href="http://www.css3.info/">CSS3</a> to animate when needed. It took us about a week to re-write the core abstraction layer to use HTML instead of Canvas and the performance benefits were dramatic.</p>
+
+<p>At this point, there was no compelling reason to Canvas. We could achieve all the animations we needed without it, and had great performance.</p>
+
+<p>You can check-out the resulting CSS3 based animation by checking out our <a href="http://atomicbrawl.com/tutorial">Tutorial</a>.</p>
+
+<h3>TL;DR</h3>
+
+<p>We decided to prototype using HTML5, specifically, Canvas. It ran well and did everything we needed to. Performance on mobile devices was sadly, not up to par. Using straight HTML with CSS3, we were able to achieve the same visual results with great performance on mobile.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Born From Cardboard]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/"/>
+    <updated>2012-08-05T10:43:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard</id>
+    <content type="html"><![CDATA[<p>This is the second in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the previous post <a href="http://blog.atomicbrawl.com/blog/2012/08/03/who-we-are/">here</a>.</p>
+
+<h3>Digital Paper</h3>
+
+<p>Our goal for the game was simple &ndash; create something fun. Too often games, <em>especially</em> those played in the browser, are just thinly veiled compulsion loops that prey on human psychology to keep you clicking over and over, but aren&rsquo;t really all that enjoyable to play. We decided to focus on creating a fun core game experience first, and then build on that solid foundation. So we started developing playable paper prototypes of, what we were calling at the time, &lsquo;Villainy&rsquo;.</p>
+
+<!-- more -->
+
+
+<h3>Focus</h3>
+
+<p>We had a vague idea of what we wanted Villainy to be. An online collectible card game that took advantage of the digital medium by having complex interactions between the pieces in play. Said another way, we wanted the fun and design sensibilities of an board or card game, that could be played through the convenience of online. It only made sense that we started prototyping with pen and page.</p>
+
+<h3>Version 0</h3>
+
+<p>The very first iteration of the game was lane based:</p>
+
+<p><img src="http://blog.atomicbrawl.com/images/born_from_cardboard/board.png" /></p>
+
+<p>In each lane you could play a &lsquo;Unit&rsquo; (now called a Brawler) which would automatically start wandering down that lane and start attacking enemies. Our original inspiration for this concept was a collectable multiplayer <a href="http://www.popcap.com/games/plants-vs-zombies/online">Plants vs Zombies</a>, or kind of like multiplayer tower defence.</p>
+
+<p>We had the concept of &lsquo;Avatars&rsquo; (now called Cores), which represented your team of characters. These avatars had unique abilities that affected the game, and formed the basis of your team. Just like now, the goal of the game at this stage was to destroy your opponent&rsquo;s avatar.</p>
+
+<p>Itching to try the game out, we created some templates for cards, printed off a stack of &lsquo;em and went crazy creating about 100 different of cards that we could used with our ever shifting rule-set.</p>
+
+<p><img src="http://blog.atomicbrawl.com/images/born_from_cardboard/cards.png" /></p>
+
+<p>All the basic cards types in this version (Cores, Brawlers, Traps, Items)  are all still in the game today. The only addition since then has been &lsquo;Structures&rsquo;, which are essentially immobile Brawlers. The big thing that was dropped was the idea of &ldquo;attack patterns&rdquo;, which were super cool but only really made sense when the Brawlers were on autopilot.</p>
+
+<h3>Beer, Pizza, Rule Changes, And More Rule Changes</h3>
+
+<p>The hardest part of this stage of development was tweaking and tuning the rules, trying to find the fun factor. We bribed some friends to come over for a few nights of beer, pizza and play-testing to help us out. We played a boat-load of games, and toyed around with tons of different facets of the game mechanics. Here&rsquo;s a short list of core choices we made that shaped the game we have today:</p>
+
+<h4>The Death Of Automatic, Lane-Based Movement</h4>
+
+<p>As I mentioned earlier, in this version of the game you played a unit and it moved forward and attacked according a defined rate and pattern. The issue with this was that you could almost never react to what your opponent was doing (especially when they were reacting to what you were doing), as once a unit was played it was out of your control. We couldn&rsquo;t decide if the game was about your macro decisions, in deck construction and high lane choices, or micro decisions &ndash; carefully choosing who attacks whom, who moves where, etc. It was a <em>very</em> tough call, but we decided a more tactics-like experience was more fun.</p>
+
+<h4>No More Attack Patterns</h4>
+
+<p>One huge difference between this and what we have now is the concept of attack and effect patterns. This was something that we were first drawn to in <a href="http://en.wikipedia.org/wiki/Phantasy_Star_Online_Episode_III:_C.A.R.D._Revolution">Phantasy Star Online Episode III: C.A.R.D Revolution</a> (that name is <em>out of control</em>). Attack patterns forced you to consider your positional strategy, and in a lane-based game it had a large impact on which lane you choose to play various cards. This was dropped for two reasons: It was really tough to forecast how patterns would impact the game, and from a UI standpoint it was difficult to do this on a hex based grid (something we decided on after the prototype).</p>
+
+<h4>Real-Time vs. Turn-Based Gameplay</h4>
+
+<p>We toyed around with a real-time versus turn-based gameplay. While real-time is fun, turn-based gameplay was something that we knew would attract those wanting a more thought-based strategic system opposed to a twitch based one. Furthermore, we knew that turn-based would eventually allow us to go the asynchronous route, a decision made further down the line, which was an attractive option in and of itself.</p>
+
+<h3>TL;DR</h3>
+
+<p>We wanted to make a game! So we built a bunch of paper prototypes, which helped us shape what we were attempting to make. Our original concept shifted from a macro-oriented multiplayer tower defence game to a micro-oriented multiplayer tactics game. Paper prototyping helped us quickly and efficiently tune what we were building.</p>
+
+<p>See the third post in this series <a href="http://blog.atomicbrawl.com/blog/2012/08/17/hacking-with-html5/">here</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Who We Are]]></title>
+    <link href="http://blog.atomicbrawl.com/blog/2012/08/03/who-we-are/"/>
+    <updated>2012-08-03T08:23:00-07:00</updated>
+    <id>http://blog.atomicbrawl.com/blog/2012/08/03/who-we-are</id>
+    <content type="html"><![CDATA[<h3>A Tale Of Two Nerds</h3>
+
+<p>Like most development stories, it started off with <a href="http://kenpratt.net">two</a> <a href="http://shorrockin.com">nerds</a> wanting to build something cool. After four years of service together at Electronic Arts, and a brief intermission, we decided to get the band back together and create what is now known as <a href="http://www.atomicbrawl.com">Atomic Brawl</a>.</p>
+
+<!-- more -->
+
+
+<h3>The Rundown</h3>
+
+<p>After some paper prototyping and many heated discussions about What The Hell We Were Building, development began in earnest in March of 2011. A year and a bit later, we&rsquo;ve got a real live asynchronous multiplayer strategy game, currently in beta testing with about 80 rabid testers. Not that we&rsquo;re biased, but the game is awesome! We&rsquo;ve drawn from some our favourite games, including  <a href="http://en.wikipedia.org/wiki/Magic:_The_Gathering">Magic The Gathering</a>, <a href="http://en.wikipedia.org/wiki/Final_Fantasy_Tactics">Final Fantasy Tactics</a>,  and maybe a touch of the flavour from something like <a href="http://en.wikipedia.org/wiki/EarthBound_(series)">Earthbound</a>, and made it available and playable in any good old browser (including mobile).</p>
+
+<h3>Atomic Brawl</h3>
+
+<p>The game, as of today, looks a little something like this (final art still pending):</p>
+
+<p><img src="http://blog.atomicbrawl.com/images/who_we_are/screenshot.png" /></p>
+
+<p>It&rsquo;s asynchronous, so you can play as fast or as slow as you like, and you can have as many games on the go as you want. Playing the game earns you rewards which gets you access to more cards, which add to your collection and can be used to power up your deck and come up with new strategies.</p>
+
+<p>Unlike most other online card games, our cards have fairly diverse effects that can create very interesting gameplay situations. Some examples:</p>
+
+<ul>
+<li><strong>Stitch</strong> allows you to take two of your own &ldquo;brawlers&rdquo; and combine them into a frankestein-like creation.</li>
+<li><strong>Teleporters</strong> allow you to instantly move brawlers between two locations.</li>
+<li><strong>Buried Nuke</strong> is a hidden trap, that if stepped on explodes for <a href="http://www.youtube.com/watch?v=2g1fr5vk72M">massive damage</a>.</li>
+<li><strong>Ventriloquism</strong> allows you to control an enemy brawler for a single turn.</li>
+<li><em>&hellip;and 180 more. We&rsquo;re going to keep adding more cards post-launch, too!</em></li>
+</ul>
+
+
+<p>You pay for cards using &ldquo;energy&rdquo;, which increases automatically throughout the game. The question is, do you stack your deck with low-cost cards in the hopes of polishing your opponent off quickly? Or do you delay the game and knock them off with more powerful cards later on? Do you focus on cards with high movement or high attack? Or perhaps you play loads of traps then try to lure you opponent into killing themselves? These are a but a few of the multitude of strategies you could try in <a href="http://atomicbrawl.com">Atomic Brawl</a>.</p>
+
+<p>Finally, thematically the game is light hearted and fun. While we all love our high fantasy, or future warfare, we wanted a game where a <em>Sugeon</em> with a <em>Big Foam Hand</em> could punch a <em>Pink Tutu</em>-wearing <em>T-Rex</em> and have it explode causing AOE damage because it had eaten a <em>Burger Bomb</em> several turns earlier. This is that game.</p>
+
+<h3>Next Up</h3>
+
+<p>Okay, so why does this blog exist? Well, we&rsquo;d like to tell our development story and give a bit back to the community that we love so much. For the next few posts, we&rsquo;ll cover how we got started, including some of the pitfalls we hit and the decisions we made to get us where we are today.</p>
+
+<p>See the second post in this series <a href="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/">here</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

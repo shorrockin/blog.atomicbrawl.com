@@ -1,0 +1,352 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Born From Cardboard - Atomic Blog</title>
+  <meta name="author" content="Burger Function Games">
+
+  <meta property="og:image" content="https://ddwyj9ksjq79v.cloudfront.net/images/misc/logo-6409d71e70881ebb44029b95dc9b9afa.png">
+  <meta property="og:title" content="Atomic Blog">
+  <meta property="og:site_name" content="Atomic Blog">
+  <meta property="og:description" content="The developer blog for Atomic Brawl. A multiplayer game that pits two players against each other in stategic and wacky warfare. Playable from your browser.">
+
+  
+  <meta name="description" content="This is the second in a series of articles which outline the development of Atomic Brawl. Check out the previous post here. Digital Paper Our goal &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/">
+  <link href="/favicon.ico" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <link href="/atom.xml" rel="alternate" title="Atomic Blog" type="application/atom+xml">
+  <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-30429159-2']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup class="main-header">
+  <!--
+  <div id="logo">
+  	<div id="logoLeft">{</div>
+  	<div id="logoText">Atomic Blog</div>
+  	<div id="logoRight">}</div>
+  	<div class="clear"></div>
+  </div>
+  -->
+  <a class="logo" href="http://atomicbrawl.com"></a>
+  <div class="titles">
+    <h1><a href="/">Atomic Blog</a></h1>
+    
+      <h2>semi-coherent ramblings from the developers of Atomic Brawl</h2>
+    
+  </div>
+  <div class="clear"></div>
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:blog.atomicbrawl.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      
+        <h1 class="entry-title">Born From Cardboard</h1>
+      
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-05T10:43:00-07:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>This is the second in a series of articles which outline the development of <a href="http://atomicbrawl.com">Atomic Brawl</a>. Check out the previous post <a href="/blog/2012/08/03/who-we-are/">here</a>.</p>
+
+<h3>Digital Paper</h3>
+
+<p>Our goal for the game was simple &ndash; create something fun. Too often games, <em>especially</em> those played in the browser, are just thinly veiled compulsion loops that prey on human psychology to keep you clicking over and over, but aren&rsquo;t really all that enjoyable to play. We decided to focus on creating a fun core game experience first, and then build on that solid foundation. So we started developing playable paper prototypes of, what we were calling at the time, &lsquo;Villainy&rsquo;.</p>
+
+<!-- more -->
+
+
+<h3>Focus</h3>
+
+<p>We had a vague idea of what we wanted Villainy to be. An online collectible card game that took advantage of the digital medium by having complex interactions between the pieces in play. Said another way, we wanted the fun and design sensibilities of an board or card game, that could be played through the convenience of online. It only made sense that we started prototyping with pen and page.</p>
+
+<h3>Version 0</h3>
+
+<p>The very first iteration of the game was lane based:</p>
+
+<p><img src="/images/born_from_cardboard/board.png" /></p>
+
+<p>In each lane you could play a &lsquo;Unit&rsquo; (now called a Brawler) which would automatically start wandering down that lane and start attacking enemies. Our original inspiration for this concept was a collectable multiplayer <a href="http://www.popcap.com/games/plants-vs-zombies/online">Plants vs Zombies</a>, or kind of like multiplayer tower defence.</p>
+
+<p>We had the concept of &lsquo;Avatars&rsquo; (now called Cores), which represented your team of characters. These avatars had unique abilities that affected the game, and formed the basis of your team. Just like now, the goal of the game at this stage was to destroy your opponent&rsquo;s avatar.</p>
+
+<p>Itching to try the game out, we created some templates for cards, printed off a stack of &lsquo;em and went crazy creating about 100 different of cards that we could used with our ever shifting rule-set.</p>
+
+<p><img src="/images/born_from_cardboard/cards.png" /></p>
+
+<p>All the basic cards types in this version (Cores, Brawlers, Traps, Items)  are all still in the game today. The only addition since then has been &lsquo;Structures&rsquo;, which are essentially immobile Brawlers. The big thing that was dropped was the idea of &ldquo;attack patterns&rdquo;, which were super cool but only really made sense when the Brawlers were on autopilot.</p>
+
+<h3>Beer, Pizza, Rule Changes, And More Rule Changes</h3>
+
+<p>The hardest part of this stage of development was tweaking and tuning the rules, trying to find the fun factor. We bribed some friends to come over for a few nights of beer, pizza and play-testing to help us out. We played a boat-load of games, and toyed around with tons of different facets of the game mechanics. Here&rsquo;s a short list of core choices we made that shaped the game we have today:</p>
+
+<h4>The Death Of Automatic, Lane-Based Movement</h4>
+
+<p>As I mentioned earlier, in this version of the game you played a unit and it moved forward and attacked according a defined rate and pattern. The issue with this was that you could almost never react to what your opponent was doing (especially when they were reacting to what you were doing), as once a unit was played it was out of your control. We couldn&rsquo;t decide if the game was about your macro decisions, in deck construction and high lane choices, or micro decisions &ndash; carefully choosing who attacks whom, who moves where, etc. It was a <em>very</em> tough call, but we decided a more tactics-like experience was more fun.</p>
+
+<h4>No More Attack Patterns</h4>
+
+<p>One huge difference between this and what we have now is the concept of attack and effect patterns. This was something that we were first drawn to in <a href="http://en.wikipedia.org/wiki/Phantasy_Star_Online_Episode_III:_C.A.R.D._Revolution">Phantasy Star Online Episode III: C.A.R.D Revolution</a> (that name is <em>out of control</em>). Attack patterns forced you to consider your positional strategy, and in a lane-based game it had a large impact on which lane you choose to play various cards. This was dropped for two reasons: It was really tough to forecast how patterns would impact the game, and from a UI standpoint it was difficult to do this on a hex based grid (something we decided on after the prototype).</p>
+
+<h4>Real-Time vs. Turn-Based Gameplay</h4>
+
+<p>We toyed around with a real-time versus turn-based gameplay. While real-time is fun, turn-based gameplay was something that we knew would attract those wanting a more thought-based strategic system opposed to a twitch based one. Furthermore, we knew that turn-based would eventually allow us to go the asynchronous route, a decision made further down the line, which was an attractive option in and of itself.</p>
+
+<h3>TL;DR</h3>
+
+<p>We wanted to make a game! So we built a bunch of paper prototypes, which helped us shape what we were attempting to make. Our original concept shifted from a macro-oriented multiplayer tower defence game to a micro-oriented multiplayer tactics game. Paper prototyping helped us quickly and efficiently tune what we were building.</p>
+
+<p>See the third post in this series <a href="/blog/2012/08/17/hacking-with-html5/">here</a>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Chris</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-08-05T10:43:00-07:00" pubdate data-updated="true">Aug 5<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/" data-via="AtomicBrawl" data-counturl="http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/" >Tweet</a>
+  
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/08/03/who-we-are/" title="Previous Post: Who We Are">&laquo; Who We Are</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/08/17/hacking-with-html5/" title="Next Post: Hacking On HTML5">Hacking On HTML5 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Links</h1>
+  <ul>
+    <li><a target="_blank" href="http://atomicbrawl.com">Play Atomic Brawl</a></li>
+    <li><a target="_blank" href="https://chrome.google.com/webstore/detail/atomic-brawl/jnpalbhkepkfjaobblnkadiccmffklpe/reviews?hl=en&gl=CA&authuser=0">Visit Us In The Chrome Web Store</a></li>
+    <li><a target="_blank" href="http://reddit.com/r/atomicbrawl/">Interact With Our Users</a></li>
+    <li><a href="mailto:hello@atomicbrawl.com">Email Us</a></li>
+  </ul>
+</section>
+<section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/11/27/state-of-the-game-november-27th/">State of the Game - November 27th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/13/state-of-the-game-november-13th/">State of the Game - November 13th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/06/state-of-the-game-november-6th/">State of the Game - November 6th</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/04/building-an-awesome-indie-game-community-the-scary-parts/">Building an Awesome Indie Game Community. The Scary Parts.</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/10/30/state-of-the-game-october-30th/">State of the Game - October 30th</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("AtomicBrawl", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/AtomicBrawl" class="twitter-follow-button" data-show-count="true">Follow @AtomicBrawl</a>
+  
+</section>
+
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - <a href="http://www.burgerfunction.com">Burger Function Games</a>
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+<script type="text/javascript">
+      var disqus_shortname = 'atomicblog';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/';
+        var disqus_url = 'http://blog.atomicbrawl.com/blog/2012/08/05/born-from-cardboard/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>
